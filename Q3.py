@@ -30,9 +30,9 @@ while(continueVar == "y"):
     var3 = int(raw_input()) #3rd number user input
 
     if ordered3(var1, var2, var3):
-        print "ordered" #prints message if ordered3 returns True
+        print "The inputs are ordered" #prints message if ordered3 returns True
     else:
-        print "unordered" #prints message if ordered3 returns False
+        print "The inputs are unordered" #prints message if ordered3 returns False
     
     continueVar = raw_input("Continue?(y/n): ") #prompts user whether to continue or not
 """ ---end main program--- """

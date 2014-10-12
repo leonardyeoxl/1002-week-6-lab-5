@@ -9,8 +9,8 @@ returns True if all inputs are zero
 returns False if none of the inputs are zero'''
 def zeroCheck(int1, int2, int3):
     if (int1 == 0              #checks if int1 is 0 
-    or int2 == 0               #checks if int2 is 0
-    or int3 == 0):             #checks if int3 is 0
+    and int2 == 0               #checks if int2 is 0
+    and int3 == 0):             #checks if int3 is 0
         return True            #returns True if int1, int2 and int3 have zeros
     else:                      #if int1, int2 and int3 do not have zeros
         return False           #returns False if int1, int2 and int3 do not have zeros
