@@ -6,7 +6,7 @@ Output:
 constructed string which includes the user's name
 '''
 def printHello(var):
-    return "Hello "+var+", how are you doing?"
+    return "Hello "+var+", how are you doing?"  #concats static message with user's name
 
 """ ---start main program--- """
 var = raw_input("Please enter your name: ") #user's name input

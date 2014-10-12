@@ -57,9 +57,9 @@ print "1. sumOfRange iterative structure\n2. sumOfRange recursion"
 
 choiceVar = int(raw_input("Choose: "))
 
-var1 = int(raw_input("First variable: "))
-var2 = int(raw_input("Second variable: "))
-var3 = int(raw_input("Incremental variable: "))
+var1 = int(raw_input("First variable: "))                   #gets integer input value for the first variable
+var2 = int(raw_input("Second variable: "))                  #gets integer input value for the second variable
+var3 = int(raw_input("Incremental variable: "))             #gets integer input value for the incremental variable
 
 if(choiceVar == "1"):
     print "The sum of range through iteractive structure is "+str(sumOfRange(var1, var2, var3)) #prints output from sumOfRange function
